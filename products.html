@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Haven - Products</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shakeels Selection</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ <!-- Hero Section with Carousel -->
+    <div id="storeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#storeCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#storeCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#storeCarousel" data-bs-slide-to="2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <!-- Slide 1 - Wireless Headphones -->
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Premium Headphones">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animate__animated animate__fadeInDown">Premium Audio</h5>
+                    <p class="animate__animated animate__fadeInUp">Experience crystal clear sound with our latest headphones</p>
+                </div>
+            </div>
+            
+            <!-- Slide 2 - Smart Watch -->
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Smart Watch">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animate__animated animate__fadeInDown">Smart Living</h5>
+                    <p class="animate__animated animate__fadeInUp">Stay connected with our advanced smart watches</p>
+                </div>
+            </div>
+            
+            <!-- Slide 3 - Camera -->
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="DSLR Camera">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="animate__animated animate__fadeInDown">Capture Moments</h5>
+                    <p class="animate__animated animate__fadeInUp">Professional cameras for photography enthusiasts</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#storeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#storeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+   
+
+    <!-- Main Content -->
+    <div class="container my-5 flex-grow-1">
+        
+        
+        <h1 class="text-center mb-5 animate__animated animate__fadeIn">Our Products</h1>
+        
+        <!-- Product Grid -->
+        <div class="row">
+            <!-- Wireless Headphones -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="Product 1.jpeg" class="card-img-top" alt="Wireless Headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Bose QuietComfort 45</h5>
+                        <p class="card-text">Premium noise-cancelling wireless headphones.</p>
+                        <p class="text-danger">R329.00</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Smart Watch -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="Product 2.jpeg" class="card-img-top" alt="Smart Watch">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Watch Series 8</h5>
+                        <p class="card-text">The most advanced Apple Watch yet.</p>
+                        <p class="text-danger">R399.00</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bluetooth Speaker -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="Product 3.jpeg" class="card-img-top" alt="Bluetooth Speaker">
+                    <div class="card-body">
+                        <h5 class="card-title">JBL Charge 5</h5>
+                        <p class="card-text">Portable Bluetooth speaker with powerful sound.</p>
+                        <p class="text-danger">R379.95</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- DSLR Camera -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="Product 4.jpeg" class="card-img-top" alt="DSLR Camera">
+                    <div class="card-body">
+                        <h5 class="card-title">Canon EOS R6</h5>
+                        <p class="card-text">Professional full-frame mirrorless camera.</p>
+                        <p class="text-danger">R32,499.00</p>
+                    
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Wireless Earbuds -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="product 5.jpeg" class="card-img-top" alt="Wireless Earbuds">
+                    <div class="card-body">
+                        <h5 class="card-title">Sony WF-1000XM4</h5>
+                        <p class="card-text">Industry-leading noise cancelling earbuds.</p>
+                        <p class="text-danger">R379.99</p>
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gaming Laptop -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="product 6.jpg" class="card-img-top" alt="Gaming Laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">ASUS ROG Zephyrus</h5>
+                        <p class="card-text">Powerful gaming laptop with RTX 3080.</p>
+                        <p class="text-danger">R32,799.99</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tablet -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="product 7.jpeg" class="card-img-top" alt="Tablet">
+                    <div class="card-body">
+                        <h5 class="card-title">iPad Pro 12.9"</h5>
+                        <p class="card-text">Pro performance with M2 chip.</p>
+                        <p class="text-danger">R1,099.00</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- VR Headset -->
+            <div class="col-lg-3 col-md-6 mb-4 animate__animated animate__fadeInUp">
+                <div class="card h-100">
+                    <img src="product 8.jpeg" class="card-img-top" alt="VR Headset">
+                    <div class="card-body">
+                        <h5 class="card-title">Meta Quest 2</h5>
+                        <p class="card-text">All-in-one VR gaming headset.</p>
+                        <p class="text-danger">R399.00</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+     <footer class="text-center text-lg-start bg-light text muted">
+        <div class="text-center p-4">&copy; 2025 Shakes Selection. All Rights Reserved</div>
+     </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
